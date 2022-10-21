@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(images/bg3.png) no-repeat center center fixed ;
+    background-size:cover;
+}
+
+main {
+    position: relative;
+}
+main.animated{
+    opacity: 0;
+    filter: blur(10px);
+    transition: opacity 3s ease-in-out, filter 4s ease-in-out;
+}
+.box{
+    width: 450px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    font-family : Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    backdrop-filter: blur(10px) saturate(160%) contrast(180%);
+    -webkit-backdrop-filter: blur(10px) saturate(160%) contrast(180%);
+}
+.bxl-facebook:before {
+    content: "\e92f";
+}
+.bxl-discord-alt:before {
+    content: "\e925";
+}
+.bxl-facebook{
+    padding: 2px;
+    background-color: DodgerBlue;
+    transition: transform .2s;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.bxl-facebook:hover{
+    transform: scale(1.5);
+}
+.bxl-discord-alt{
+    padding: 5px;
+    background-color: #5865F2;
+    transition: transform .2s;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.bxl-discord-alt:hover{
+    transform: scale(1.5);
+}
+.bxl-instagram{
+    padding: 5px;
+    background-color: #C13584;
+    transition: transform .2s;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.bxl-instagram:hover{
+    transform: scale(1.5);
+}
+  .box-img{
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    
+  }
+  .box h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-family: monospace;
+    font-weight: bolder;
+  }
+  .box h5{
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+  }
+  .box p{
+    text-align: center;
+    font-size: 20px;
+  }
+  ul{
+    margin: 0;
+    padding: 0;
+  }
+  .box li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+  }
+  .box li a{
+    color: white;
+    text-decoration: none;
+    font-size: 60px;
+    transition: all ease-in-out 250ms;
+  }
+  .box li a:hover{
+    color: #b9b9b9;
+  }
