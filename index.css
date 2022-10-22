@@ -36,7 +36,7 @@ main.animated{
     transition: opacity 3s ease-in-out, filter 4s ease-in-out;
 }
 .box{
-    width: 450px;
+    width: 380px;
     background: rgba(0, 0, 0, 0.4);
     padding: 40px;
     text-align: center;
