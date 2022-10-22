@@ -4,6 +4,28 @@ body{
     background: url(images/bg3.png) no-repeat center center fixed ;
     background-size:cover;
 }
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+  align-items: center;
+}
+.fa-spin {
+  -webkit-animation: fa-spin 5s infinite linear;
+  animation: fa-spin 2s infinite linear;
+}
+.fa-fw {
+  width: 1.28571429em;
+  text-align: center;
+}
+.fa-3x {
+  font-size: 3em;
+}
 
 main {
     position: relative;
@@ -62,10 +84,20 @@ main.animated{
 .bxl-instagram:hover{
     transform: scale(1.5);
 }
-  .box-img{
-    border-radius: 100%;
-    width: 200px;
-    height: 200px;
+.bx-message-rounded-dots{
+  padding: 5px;
+  background-color: #0068ff;
+  transition: transform .2s;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+.bx-message-rounded-dots:hover{
+  transform: scale(1.5);
+}
+.box-img{
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
     
   }
   .box h1{
